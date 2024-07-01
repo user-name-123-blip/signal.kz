@@ -1,1 +1,121 @@
-
+<!doctype html>
+<html lang="kk">
+	<head>
+		<meta charset="utf-8">
+		<title>Ali Blog</title>
+		<link href="blog.css" rel="stylesheet">
+		<script src="blog.js"></script>
+		<link href="imgs/blog_icon.png" rel="website icon" type="icon">
+	</head>
+	<body>
+		<div id="header" class="section">
+			<img class="img-circle" src="imgs/blog.jpg">
+			<p style="text-shadow: 3px 2px 3px #5c99ed;" id="mynames">Али Бердімұратов</p>
+			<button class="bt1" onclick="displayResult()">Шын атым</button>
+		</div>
+		<div class="section">
+			<h1><span>Мен Туралы</span></h1>
+			<p>Эй! Мен <strong>Али</strong>. Кодтау менің әлемімді өзгертті. Бұл тек қолданбалар туралы емес. Кодтауды үйрену маған <i>проблемаларды шешу дағдыларын</i> және техникалық деңгейде басқалармен қарым-қатынас жасау тәсілін берді. Мен веб-сайттарды дамыта аламын және жақсы жұмысқа орналасу үшін кодтау дағдыларымды қолдана аламын. Мен мұның бәрін <strong>SoloLearn</strong> бағдарламасында білдім, онда олар сіздің өзін-өзі бағалауыңызды қалыптастырады және сізді мотивациялайды. Осы пайдалы сапарға маған қосылыңыз. Сіз көңіл көтересіз, көмек алыңыз және жолда үйренесіз!</p>
+			<p class="quote">"Соғыс емес, айнымалыларды жариялаңыз"</p>
+			<button class="bt2" type="button" onclick="funcDate()">Күн мен уақытты көрсету үшін мені басыңыз.</button>
+			<p id="date"></p>
+		</div>
+		<div class="section">
+			<h1><span>Менің кодтау кестесі</span></h1>
+			<table>
+				<tr>
+					<th>Күн</th>
+					<th>Дүйсенбі</th>
+					<th>Сейсенбі</th>
+					<th>Сәрсенбі</th>
+					<th>Бейсенбі</th>
+					<th>Жұма</th>
+				</tr>
+				<tr>
+					<td>8-8.30</td>
+					<td class="selected">Үйрену</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>9-10</td>
+					<td></td>
+					<td class="selected">Жаттығу</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1-1:30</td>
+					<td></td>
+					<td></td>
+					<td class="selected">Ойын</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>3:45-5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="selected">Код</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>6-6:15</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="selected">Талқылаңыз</td>
+				</tr>
+			</table>
+		</div>
+		<div class="section">
+			<h1><span>Менің дағдыларым</span></h1>
+			<ol>
+				<li>HTML <br>
+					<progress min="0" max="100" value="81"></progress>
+				</li>
+				<li>Python <br>
+					<progress min="0" max="100" value="80"></progress>
+				</li>
+				<li>CSS <br>
+					<progress min="0" max="100" value="58"></progress>
+				</li>
+				<li>JavaScript <br>
+					<progress min="0" max="100" value="15"></progress>
+				</li>
+			</ol>
+		</div>
+		<div class="section">
+			<h1><span>Менімен хабарлас</span></h1>
+			<form>
+				<input type="text" name="name" placeholder="Name"><br>
+				<input type="email" name="email" placeholder="Email"><br>
+				<textarea name="message" placeholder="Message"></textarea><br>
+				<input type="tel" name="telephone" placeholder="8-707-532-69-51"><br>
+				<input type="submit" value="Жіберу" class="submit">
+			</form>
+		</div>
+		<div class="section" id="contacts">
+			<h1><span>Мағын Жазыл</span></h1>
+			<div>
+				<a href="https://www.sololearn.com/" target="_blank">
+					<img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png">
+				</a>
+				<a href="https://www.facebook.com/" target="_blank">
+					<img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png">
+				</a>
+				<a href="https://www.twitter.com/" target="_blank">
+					<img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png">
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+			&copy; 2023 Менің блогым. Барлық құқықтар сақталған.
+		</div>
+	</body>
+</html>
