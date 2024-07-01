@@ -1,1 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, #757f9a, #d7dde8);
+}
 
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: none;
+	}
+}
+
+.img {
+	text-align: center;
+}
+
+.main {
+	background: #fff;
+	margin-left: 76px;
+	margin-right: 76px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 14px;
+}
+
+.main .header h1 {
+	text-align: center;
+	font-family: 'Simplifica', sans-serif;
+	text-shadow: 3px 2px 3px black;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main .header blockquote {
+	font-size: 19px;
+	font-family: 'Quantico', sans-serif;
+}
+
+.main .header ol {
+	font-family: 'Quantico', sans-serif;
+	font-size: 19px;
+}
+
+.main .section h2 {
+	text-align: left;
+	text-shadow: 3px 2px 3px black;
+	font-family: 'Simplifica', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.main .section blockquote {
+	font-size: 19px;
+	font-family: 'Quantico', sans-serif;
+}
+
+.main .section figure video {
+	width: 50%;
+}
+
+.main .section figure figcaption {
+	text-align: left;
+	text-decoration: underline;
+	color: #162938;
+	font-size: 19px;
+	font-family: 'Elianto', sans-serif;
+}
+
+.main .section h3 {
+	font-size: 19px;
+	font-family: 'Simplifica', sans-serif;
+	font-weight: bold;
+	margin-top: 18px;
+	margin-left: 25px;
+}
+
+.main .section p {
+	font-size: 19px;
+	font-family: 'Quantico', sans-serif;
+	margin-left: 25px;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navigation .image_circle {
+	display: block;
+	width: 150px;
+	height: 130px;
+	margin: auto;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.footer {
+	text-align: center;
+	color: black;
+	font-size: 28px;
+	font-weight: bold;
+}
